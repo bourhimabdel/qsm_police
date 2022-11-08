@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">مباراة الأمن الوطني</string>
+    <string name="UTF_8" translatable="false">UTF-8</string>
+    <string name="banner_ads">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="app_id">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="open_add_id">ca-app-pub-3940256099942544/3419835294</string>
+    <string name="insteteril_ad">ca-app-pub-3940256099942544/1033173712</string>
+
+    <string name="channel_remind_user" translatable="false">Daily Information</string>
+</resources>

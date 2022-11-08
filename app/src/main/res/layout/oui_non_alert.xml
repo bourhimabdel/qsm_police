@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/back_oui_non"
+  >
+
+  <TextView
+      android:id="@+id/title"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:textColor="#DCDCDC"
+      android:textSize="20sp"
+      android:textStyle="bold"
+      android:text="الخروج"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      android:layout_marginTop="12dp"
+      android:layout_marginEnd="20dp"
+      android:layout_marginRight="20dp" />
+
+  <TextView
+      android:id="@+id/discription"
+      android:layout_width="0dp"
+      android:layout_height="wrap_content"
+      android:textColor="#DCDCDC"
+      android:textSize="15sp"
+      android:text="هل حقا تريد الخروج ؟"
+      android:textStyle="bold"
+
+      app:layout_constraintTop_toBottomOf="@id/title"
+      app:layout_constraintEnd_toEndOf="@id/title"
+      android:layout_margin="10dp"/>
+
+
+
+  <Button
+      android:id="@+id/btn_oui"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+
+      android:background="@drawable/btn_selector_next"
+      android:gravity="center"
+      android:textAllCaps="false"
+      android:textSize="15sp"
+      android:textStyle="bold"
+      android:textColor="#DCDCDC"
+      android:text="نعم أريد"
+
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@id/discription"
+      app:layout_constraintBottom_toBottomOf="parent"
+
+      android:layout_marginTop="15dp"
+      android:layout_marginBottom="15dp"
+      android:layout_marginStart="15dp"
+      android:layout_marginLeft="15dp" />
+
+  <Button
+      android:id="@+id/btn_non"
+      android:layout_width="wrap_content"
+      android:layout_height="0dp"
+
+
+      android:background="@drawable/back_operation_en"
+
+
+      app:layout_constraintStart_toEndOf="@id/btn_oui"
+      app:layout_constraintBottom_toBottomOf="@id/btn_oui"
+      app:layout_constraintTop_toTopOf="@id/btn_oui"
+
+
+      android:layout_marginStart="9dp"
+
+      android:text="لا"
+      android:textColor="#DCDCDC"
+      android:gravity="center"
+      android:textSize="15sp"
+      android:textAllCaps="false"
+
+      android:layout_marginLeft="9dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
